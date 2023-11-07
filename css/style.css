@@ -8,6 +8,7 @@
 body {
   background: #bbdefb;
   color: black;
+   
 }
 
 .header {
@@ -145,7 +146,7 @@ body {
 }
 
 .home-sci {
-  position: absolute;
+  position: fixed;
   bottom: 40px;
   width: 170px;
 
@@ -174,4 +175,36 @@ body {
   100% {
     width: 0%;
   }
+}
+.image-container{
+position:relative;
+border: 5px solid #BBDEFB;
+box-shadow: 5px 5px 7px #42A5F5;
+width: 450px;
+height: 250px;
+overflow: hidden;
+left: 900px;
+bottom: 450px;
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.code-containers {
+display: flex;
+border: 5px solid #BBDEFB;
+box-shadow: 5px 5px 7px #42A5F5;
+width: 450px;
+height: 250px;
+overflow: hidden;
+
+f
+}
+
+.code-containers img{
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
