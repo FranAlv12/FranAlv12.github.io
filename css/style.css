@@ -202,23 +202,24 @@ body {
 }
 
 .code-containers img {
-  border: 5px solid #f9ffff;
+  border: 5px solid #F9FFFF;
   border-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.code-btn {
+ .code-btn {
   position: relative;
   left: 250px;
   bottom: 300px;
   display: flex;
   gap: 260px;
+  
 }
-.code-btn a {
+.code-btn a{
   position: relative;
-
+  
   background: #90caf9;
   border: 1px solid black;
   border-radius: 5px;
@@ -232,10 +233,10 @@ body {
 .image-container:hover {
   opacity: 80%;
   transition: 0.5s;
-  object-fit: cover;
+  object-fit: cover;;
 }
 
 .code-containers img:hover {
-  opacity: 80%;
-  transition: 1.2s;
+opacity: 80%;
+transition: 1s;
 }
