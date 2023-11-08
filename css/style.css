@@ -271,4 +271,5 @@ footer{
   height: 40px;
   background: #42a5f5;
   opacity: 100%;
+  justify-items: center;
 }
