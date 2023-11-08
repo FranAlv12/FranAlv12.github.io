@@ -267,3 +267,8 @@ transition: 1s;
   width: 500px;
 
 }
+footer{
+  height: 40px;
+  background: #42a5f5;
+  opacity: 100%;
+}
