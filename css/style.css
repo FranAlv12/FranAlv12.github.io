@@ -8,7 +8,6 @@
 body {
   background: #bbdefb;
   color: black;
-   
 }
 
 .header {
@@ -38,10 +37,9 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-  background: #42A5F5;
+  background: #42a5f5;
   animation: showRight 1s ease forwards;
   animation-delay: 0.4s;
-  
 }
 
 .navbar a {
@@ -71,7 +69,6 @@ body {
   position: relative;
   font-size: 56px;
   font-weight: 700;
-  
 }
 .home-content h1::before {
   content: "";
@@ -80,10 +77,9 @@ body {
   right: 0;
   width: 100%;
   height: 100%;
-  background: #BBDEFB;
+  background: #bbdefb;
   animation: showRight 1s ease forwards;
   animation-delay: 0.4s;
-  
 }
 
 .home-content h3 {
@@ -94,7 +90,7 @@ body {
 
 .home-content p {
   font-size: 16px;
-  margin-right: 50% ;
+  margin-right: 50%;
   line-height: 1.2;
 }
 
@@ -149,7 +145,7 @@ body {
   position: fixed;
   bottom: 40px;
   width: 170px;
-
+  z-index: 1;
   display: flex;
   justify-content: space-between;
 }
@@ -161,9 +157,9 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 4px solid black;
+  border: 4px solid white;
   font-size: 20px;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .home-sci :hover {
@@ -176,35 +172,70 @@ body {
     width: 0%;
   }
 }
-.image-container{
-position:relative;
-border: 5px solid #BBDEFB;
-box-shadow: 5px 5px 7px #42A5F5;
-width: 450px;
-height: 250px;
-overflow: hidden;
-left: 900px;
-bottom: 450px;
+.image-container {
+  position: relative;
+  border: 5px solid #bbdefb;
+  box-shadow: 5px 5px 7px #42a5f5;
+  width: 450px;
+  height: 250px;
+  overflow: hidden;
+  left: 900px;
+  bottom: 450px;
 }
-.image-container img{
+.image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .code-containers {
-display: flex;
-border: 5px solid #BBDEFB;
-box-shadow: 5px 5px 7px #42A5F5;
-width: 450px;
-height: 250px;
-overflow: hidden;
+  position: relative;
+  display: flex;
 
-f
+  gap: 10px 50px;
+
+  width: 1250px;
+  height: 250px;
+  overflow: hidden;
+  bottom: 300px;
+  left: 143px;
 }
 
-.code-containers img{
-width: 100%;
-height: 100%;
-object-fit: cover;
+.code-containers img {
+  border: 5px solid #f9ffff;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.code-btn {
+  position: relative;
+  left: 250px;
+  bottom: 300px;
+  display: flex;
+  gap: 260px;
+}
+.code-btn a {
+  position: relative;
+
+  background: #90caf9;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 19px;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.image-container:hover {
+  opacity: 80%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.code-containers img:hover {
+  opacity: 80%;
+  transition: 1.2s;
 }
